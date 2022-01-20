@@ -28,7 +28,7 @@ public class MyBeanDefinitionRegistryPostProcessor implements BeanDefinitionRegi
         registry.registerBeanDefinition("person_01", beanDefinitionBuilder.getBeanDefinition());
         registry.registerBeanDefinition("person_02", beanDefinition);
         //以下这一行证明registry可以覆盖同名的bean definition！
-        //registry.registerBeanDefinition("person_01", beanDefinition);
+//        registry.registerBeanDefinition("person_01", beanDefinition);
 
     }
 
